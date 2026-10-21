@@ -1,0 +1,9 @@
+POST http://localhost:8081/incidencias/1/progresos
+Content-Type: application/json
+
+{
+  "fecha": "2026-05-25",
+  "empleado": "armando@example.com",
+  "descripcion": "Prueba desde HTTP",
+  "estado": "OPEN"
+}
